@@ -35,7 +35,7 @@
           def initialize(options)
             @node_name = options.first[0]
             @children = options.first[1].map do |child|
-                    p Tree.new child[0] => child[1]
+                    Tree.new child[0] => child[1]
                 end
           end
 
